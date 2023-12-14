@@ -18,16 +18,7 @@ website:
     logo: "images/Quizzo.webp"
     pinned: true
     align: center
-    tools: 
-      - icon: globe
-        href: https://nickhand.dev
-        text: "Personal Website"
-      - icon: github
-        href: https://github.com/MUSA-550-Fall-2023/
-        text: "MUSA 550 GitHub"
-      - icon: twitter
-        href: https://twitter.com/nicholashand
-        text: "Nick Hand Twitter"         
+    
 
     style: "docked"
     search: true
