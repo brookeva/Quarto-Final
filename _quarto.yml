@@ -26,7 +26,7 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - about.qmd
+      - Methods.qmd
       - section: analysis/Analysis Text.qmd
         contents:
           - analysis/Analysis Code.qmd 

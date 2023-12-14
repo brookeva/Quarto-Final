@@ -9,6 +9,8 @@ from matplotlib import pyplot as plt
 
 
 ```python
+# Analysis Code
+
 # Foursquare API key
 options = {
   'method': 'GET',
