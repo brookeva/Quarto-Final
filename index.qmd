@@ -1,22 +1,29 @@
 ---
-title: "MUSA 550 Final Project Template"
-subtitle: "An example website demonstrating the power of Quarto for sharing analyses on the web"
+title: "Philly Quizzo!"
+subtitle: "A Tour Through Philadelphia's Vibrant Quizzo Scene"
 ---
 
 ## Welcome!
 
-We can create beautiful websites that describe complex technical analyses in Python using [Quarto](https://quarto.org) 
-and deploy them online using [GitHub Pages](https://pages.github.com/). This combination of tools is a really powerful way 
-to create and share your work. This website is a demo that is meant to be used to create your own Quarto website for the 
-final project in MUSA 550. 
+### Group Members 
 
-Quarto is a relatively new tool, but is becoming popular quickly. It's a successor 
-to the Rmarkdown ecosystem that combines functionality into a single tool and also extends its computation power to other
-languages. Most importantly for us, Quarto supports executing Python code, allowing us to convert Jupyter notebooks to HTML and share them online.  
+Brooke Acosta, Michael Dunst, Sofia Fasullo
 
-::: {.callout-important}
-This template site, including the layout it uses, is just a suggested place to start! For your final project, you're welcome (and encouraged) to 
-make as many changes as you like to best fit your project.
+### Research Question
+
+Which Quizzo locations are closest to the user based on location and day of week selected.
+
+## The Approach
+
+We will be creating a dataset that includes Quizzo locations in Philadelphia, night of week that Quizzo is available at each location, and neighborhood.  We will use this data to create an interactive dashboard that the public can filter through and use to find Quizzo locations nearest to them on their desired date. We will use the following approach: 
+
+### Methods
+
+•	Web scrape using Foursquare Places API to find Quizzo locations and date of Quizzo nights in Philadelphia.
+•	Use OMNX to map routes to Quizzo locations.
+•	Calculate the distance between the user and Quizzo locations and allow the user to find the five Quizzo locations closest to them. 
+•	Create an interactive dashboard for users to select their preferred Quizzo night and the dashboard will filter the dataset based on location/proximity to Quizzo bar and date of week selected. 
+
 :::
 
 ## Find out more
