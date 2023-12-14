@@ -1,0 +1,8 @@
+# The Analysis
+
+This section includes our analysis and graphics displaying Quizzo location and density.
+
+In particular, it shows the location of all Quizzo bars in Philadelphia, an interactive dashboard panel where you can select your neighborhood and view all Quizzos available there, and an interactive map showing the density of Quizzo bars per neighborhood.
+
+---
+![](images/Quizzo.webp){height=5in}

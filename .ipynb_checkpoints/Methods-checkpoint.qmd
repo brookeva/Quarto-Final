@@ -1,0 +1,31 @@
+---
+title: "The Methods"
+---
+
+<!-- Use a grid -->
+::: {.grid}
+
+<!-- Left column has a width of 4/12 and shows a picture of me -->
+::: 
+
+---
+![](images/Quizzo.webp){height=5in}
+
+
+<!-- Text gets a column with width 8/12 -->
+::: {.g-col-8}
+
+- Data is collected through a means more sophisticated than downloading (e.g. scraping, API). 
+
+- The analysis of the data is reasonably complex, involving multiple steps (geospatial joins/operations, data shaping, data frame operations, etc). 
+
+- The analysis of the data is reasonably complex, involving multiple steps (geospatial joins/operations, data shaping, data frame operations, etc). 
+
+- The project includes a deployed Panel dashboard.
+
+:::
+
+
+
+
+
