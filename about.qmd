@@ -1,0 +1,33 @@
+---
+title: "Philly Quizzo!"
+---
+
+<!-- Use a grid -->
+::: {.grid}
+
+<!-- Left column has a width of 4/12 and shows a picture of me -->
+::: {.g-col-4}
+![](images/Quizzo.jpg){width=3in}
+:::
+
+<!-- Text gets a column with width 8/12 -->
+::: {.g-col-8}
+
+Research Question: Which Quizzo locations are closest to the user based on location and day of week selected.
+
+How the Approach will Satisfy the Final Project Requirements: We will be creating a dataset that includes Quizzo locations in Philadelphia, night of week that Quizzo is available at each location, and neighborhood.  We will use this data to create an interactive dashboard that the public can filter through and use to find Quizzo locations nearest to them on their desired date. We will use the following approach: 
+
+•	Web scrape using Foursquare Places API to find Quizzo locations and date of Quizzo nights in Philadelphia.
+•	Use OMNX to map routes to Quizzo locations.
+•	Calculate the distance between the user and Quizzo locations and allow the user to find the five Quizzo locations closest to them. 
+•	Create an interactive dashboard for users to select their preferred Quizzo night and the dashboard will filter the dataset based on location/proximity to Quizzo bar and date of week selected. 
+
+
+
+
+::: 
+
+:::
+
+
+
